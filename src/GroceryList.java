@@ -9,8 +9,8 @@ public class GroceryList
     //Default constructor.
     public GroceryList()
     {
-        groceryList = new GroceryItemOrder[MAX_CAPACITY];
-        size = 0;
+        this.groceryList = new GroceryItemOrder[MAX_CAPACITY];
+        this.size = 0;
     }
 
     //Add an item to the end of the list and increments size.
